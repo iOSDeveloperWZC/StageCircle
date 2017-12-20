@@ -13,6 +13,7 @@
 		269E42851FEA029900E51AFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269E42841FEA029900E51AFA /* Assets.xcassets */; };
 		269E42881FEA029900E51AFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269E42861FEA029900E51AFA /* LaunchScreen.storyboard */; };
 		269E428B1FEA029900E51AFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E428A1FEA029900E51AFA /* main.m */; };
+		269E42931FEA02AC00E51AFA /* StageCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 269E42921FEA02AC00E51AFA /* StageCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		269E42871FEA029900E51AFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269E42891FEA029900E51AFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		269E428A1FEA029900E51AFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		269E42911FEA02AC00E51AFA /* StageCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageCircleView.h; sourceTree = "<group>"; };
+		269E42921FEA02AC00E51AFA /* StageCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		269E426F1FEA029900E51AFA = {
 			isa = PBXGroup;
 			children = (
+				269E42941FEA02AE00E51AFA /* StageCircleView */,
 				269E427A1FEA029900E51AFA /* StageCircleView */,
 				269E42791FEA029900E51AFA /* Products */,
 			);
@@ -69,6 +73,16 @@
 				269E428A1FEA029900E51AFA /* main.m */,
 			);
 			path = StageCircleView;
+			sourceTree = "<group>";
+		};
+		269E42941FEA02AE00E51AFA /* StageCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				269E42911FEA02AC00E51AFA /* StageCircleView.h */,
+				269E42921FEA02AC00E51AFA /* StageCircleView.m */,
+			);
+			name = StageCircleView;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				269E42801FEA029900E51AFA /* ViewController.m in Sources */,
+				269E42931FEA02AC00E51AFA /* StageCircleView.m in Sources */,
 				269E428B1FEA029900E51AFA /* main.m in Sources */,
 				269E427D1FEA029900E51AFA /* AppDelegate.m in Sources */,
 			);
